@@ -3,15 +3,20 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "Express backend server for deployment on Render",
   "dependencies": {
     "bcrypt": "^6.0.0",
+    "cors": "^2.8.5",
     "dotenv": "^17.0.0",
-    "multer": "^2.0.1",
+    "express": "^4.18.2",
+    "multer": "^2.0.1"
+  },
+  "devDependencies": {
     "nodemon": "^3.1.10"
   }
 }
